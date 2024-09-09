@@ -1,56 +1,66 @@
+/* Estilo básico para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200vh;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Alterado para 100vh para ajustar a altura da viewport */
+  background-color: #f4f4f4; /* Adicionado para uma cor de fundo leve */
 }
 
+/* Estilo para o conteúdo principal */
 main {
-    background-color: lightblue;
-    font-weight: bold;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-    width: 300px;
+  background-color: lightblue;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 400px; /* Definido max-width para melhorar a responsividade */
 }
 
+/* Estilo para o título principal */
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-bottom: 20px; /* Adicionado espaçamento inferior */
 }
 
+/* Estilo para labels */
 label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
+/* Estilo para campos de entrada */
 input {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
+/* Estilo para o botão */
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px; /* Adicionado para consistência no tamanho do texto */
 }
 
 button:hover {
-    background-color: #45a049;
-  
+  background-color: #45a049;
 }
-styled-image img {
-    width: 200px;
-    height: 200px;
-    min-height:0vh;
+
+/* Estilo para imagens */
+.styled-image img {
+  width: 100%; /* Alterado para 100% para garantir que a imagem se ajuste ao contêiner */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 4px; /* Adicionado para bordas arredondadas */
 }
