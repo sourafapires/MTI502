@@ -5,29 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro MTI502</title>
     <link rel="stylesheet" href="style.css">
-<img src="logoadm.jpeg" width=200 title=>
-  <center>
-  <h1>Administração Regional de Sobradinho</h1>
-
+</head>
 <body>
+    <header>
+        <h1>Administração Regional de Sobradinho</h1>
+    </header>
     <main>
         <h2>Formulário de Cadastro MTI502</h2>
         <form action="/submit" method="POST">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-              
-            <label for="telefone">Telefone/Whatsapp:</label>
-            <input type="number" id="telefone" name="telefone" required>  
-
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" required>
-	<center>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefone">Telefone/Whatsapp:</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
             <button type="submit">Finalizar Cadastro</button>
-    </center>
         </form>
+        <p>Obrigado por escolher aprimorar seus conhecimentos! Nos vemos em breve!</p>
+    </main>
+</body>
+</html>
+
         <p>Obrigado por escolher aprimorar seus conhecimentos! Nos vemos em breve!</p>
     </main>
 </body>
